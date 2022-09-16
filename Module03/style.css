@@ -1,0 +1,137 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+section.navbar-sec{
+    background-color: #282a35;
+    padding: 10px;
+}
+
+section.navbar-sec a{
+    font-weight: bold;
+    color:white;
+    font-size:22px;
+    margin-right: 20px;
+}
+
+section.navbar-sec a:hover{
+    color:green;
+}
+
+section.latest-news{
+    margin-top: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+section.latest-news > h1{
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 8px;
+    width: 350px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+section.latest-news > P{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+section.latest-news a{
+    margin-left:10px;
+    color:#04aa6d;
+    font-size:14px;
+}
+
+.exchange{
+    border-width: 5px;
+    border-style: groove;
+    width: 40%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.exchange h4{
+    background-color: #04aa6d;
+    color: white;
+    width: 190px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.exchange p{
+    font-weight: bold;
+}
+
+.exchange #date{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.article{
+    border-width: 8px;
+    border-style: double;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+}
+
+.article h1{
+    color: #1a7754;
+    font-size: 42px;
+}
+
+.article h3{
+    color: #282a35;
+    font-size: 28px;
+}
+
+.article p{
+    font-size: 18px;
+}
+
+#highlight-p{
+    font-style: italic;
+    font-size: 20px;
+    width: 60%;
+    font-weight: bold;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+}
+
+.article .date{
+    font-size: 22px;
+}
+
+.footer-end{
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+a[href="about-us"]{
+    font-style: normal;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    background-color: #04aa6d;
+}
+a[href="contact-us"]{
+    font-style: normal;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    background-color: #1a7754;
+}
